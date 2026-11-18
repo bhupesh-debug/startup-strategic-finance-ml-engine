@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 11,
+    "slug": "11_maven_clinic_client_rev_bva",
+    "company": "Maven Clinic",
+    "role": "Strategic Finance Associate",
+    "project_title": "Employer Client Lives, Product Mix & Monthly BvA Forecast Model",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "seed": 1011,
+    "n_rows": 900,
+    "target": "client_monthly_rev_k",
+    "unit": "$K",
+    "features": [
+      "enrolled_lives_k",
+      "pmpm_fee_usd",
+      "utilization_tier",
+      "enterprise_product_count",
+      "clinical_margin_pct",
+      "impl_lag_days"
+    ],
+    "domain_context": "NYC Hybrid quantitative client/product revenue forecasting and Accounting close partnering ($94K-$110K + eq).",
+    "talking_point": "Links employer launch dates and product module attach directly to monthly GAAP BvA reviews."
+  },
+  "verified_run": {
+    "rank": 11,
+    "slug": "11_maven_clinic_client_rev_bva",
+    "company": "Maven Clinic",
+    "role": "Strategic Finance Associate",
+    "project_title": "Employer Client Lives, Product Mix & Monthly BvA Forecast Model",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "n_rows": 900,
+    "test_rows": 225,
+    "features": [
+      "enrolled_lives_k",
+      "pmpm_fee_usd",
+      "utilization_tier",
+      "enterprise_product_count",
+      "clinical_margin_pct",
+      "impl_lag_days"
+    ],
+    "target": "client_monthly_rev_k",
+    "elapsed_ms": 220.99,
+    "throughput_rows_per_sec": 4072.6,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "R2",
+    "baseline_primary": 0.8921,
+    "ml_primary": 0.9666,
+    "baseline_error_label": "MAE ($K)",
+    "baseline_error": 13.1801,
+    "ml_error": 7.1906,
+    "ml_rmse": 9.2326,
+    "error_reduction_pct": 45.44
+  }
+}

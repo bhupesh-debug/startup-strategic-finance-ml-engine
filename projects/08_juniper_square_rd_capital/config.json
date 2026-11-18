@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 8,
+    "slug": "08_juniper_square_rd_capital",
+    "company": "Juniper Square",
+    "role": "Finance Director, R&D",
+    "project_title": "R&D Engineering Stage-Gate ROI & ASC 350-40 Capitalization Model",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "seed": 1008,
+    "n_rows": 900,
+    "target": "product_net_roi_pct",
+    "unit": "%",
+    "features": [
+      "eng_pod_cost_k",
+      "india_us_blend_ratio",
+      "cloud_ai_compute_k",
+      "asc350_cap_pct",
+      "arr_unlock_k",
+      "sprint_velocity_idx"
+    ],
+    "domain_context": "CTO/CPO Finance partnering across US & India R&D hubs, Pigment/TeamOhana headcount, cloud AI cost & cap-vs-expense ($175K-$220K).",
+    "talking_point": "Aligns Engineering squad velocity and blended US/India cost efficiency with auditable ASC 350-40 software capitalization gates."
+  },
+  "verified_run": {
+    "rank": 8,
+    "slug": "08_juniper_square_rd_capital",
+    "company": "Juniper Square",
+    "role": "Finance Director, R&D",
+    "project_title": "R&D Engineering Stage-Gate ROI & ASC 350-40 Capitalization Model",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "n_rows": 900,
+    "test_rows": 225,
+    "features": [
+      "eng_pod_cost_k",
+      "india_us_blend_ratio",
+      "cloud_ai_compute_k",
+      "asc350_cap_pct",
+      "arr_unlock_k",
+      "sprint_velocity_idx"
+    ],
+    "target": "product_net_roi_pct",
+    "elapsed_ms": 206.44,
+    "throughput_rows_per_sec": 4359.6,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "R2",
+    "baseline_primary": 0.8912,
+    "ml_primary": 0.9662,
+    "baseline_error_label": "MAE (%)",
+    "baseline_error": 5.9603,
+    "ml_error": 3.3135,
+    "ml_rmse": 4.1286,
+    "error_reduction_pct": 44.41
+  }
+}

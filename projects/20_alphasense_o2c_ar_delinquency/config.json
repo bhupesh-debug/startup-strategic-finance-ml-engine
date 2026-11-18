@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 20,
+    "slug": "20_alphasense_o2c_ar_delinquency",
+    "company": "AlphaSense",
+    "role": "Accounts Receivable Manager",
+    "project_title": "Order-to-Cash 60+ Day AR Delinquency & Dunning Priority Risk Engine",
+    "task_type": "classification",
+    "model_family": "RF_CLF",
+    "seed": 1020,
+    "n_rows": 1200,
+    "target": "delinquent_60d_flag",
+    "unit": "prob",
+    "features": [
+      "invoice_amt_k",
+      "days_to_renewal",
+      "prior_late_count",
+      "open_billing_disputes",
+      "avg_hist_pay_days",
+      "auto_pay_enabled"
+    ],
+    "domain_context": "IPO-readiness O2C collections leadership in NetSuite/Salesforce preventing DSO creep while protecting NRR ($98K-$135K NYC/Remote).",
+    "talking_point": "Separates disputed high-ACV enterprise renewals from routine dunning, isolating high-risk cash exposure systematically."
+  },
+  "verified_run": {
+    "rank": 20,
+    "slug": "20_alphasense_o2c_ar_delinquency",
+    "company": "AlphaSense",
+    "role": "Accounts Receivable Manager",
+    "project_title": "Order-to-Cash 60+ Day AR Delinquency & Dunning Priority Risk Engine",
+    "task_type": "classification",
+    "model_family": "RF_CLF",
+    "n_rows": 1200,
+    "test_rows": 300,
+    "features": [
+      "invoice_amt_k",
+      "days_to_renewal",
+      "prior_late_count",
+      "open_billing_disputes",
+      "avg_hist_pay_days",
+      "auto_pay_enabled"
+    ],
+    "target": "delinquent_60d_flag",
+    "elapsed_ms": 366.78,
+    "throughput_rows_per_sec": 3271.7,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "ROC-AUC",
+    "baseline_primary": 0.806,
+    "ml_primary": 0.8216,
+    "baseline_error_label": "Brier Score",
+    "baseline_error": 0.1776,
+    "ml_error": 0.1723,
+    "ml_pr_auc": 0.8073,
+    "error_reduction_pct": 2.97
+  }
+}

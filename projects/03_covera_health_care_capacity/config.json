@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 3,
+    "slug": "03_covera_health_care_capacity",
+    "company": "Covera Health",
+    "role": "Manager, FP&A",
+    "project_title": "Care Coordination Scan Volume & FTE Staffing Capacity Optimizer",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "seed": 1003,
+    "n_rows": 900,
+    "target": "cost_per_scan_usd",
+    "unit": "$",
+    "features": [
+      "weekly_scan_orders",
+      "fte_utilization",
+      "agent_ramp_share",
+      "attrition_pct",
+      "ai_triage_adoption",
+      "offshore_mix"
+    ],
+    "domain_context": "Workforce staffing and cost-per-order unit economics for clinical Care Coordination ops (NYC optional).",
+    "talking_point": "Quantifies cost-per-scan elasticity under seasonal demand spikes, agent attrition cohorts, and AI triage routing."
+  },
+  "verified_run": {
+    "rank": 3,
+    "slug": "03_covera_health_care_capacity",
+    "company": "Covera Health",
+    "role": "Manager, FP&A",
+    "project_title": "Care Coordination Scan Volume & FTE Staffing Capacity Optimizer",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "n_rows": 900,
+    "test_rows": 225,
+    "features": [
+      "weekly_scan_orders",
+      "fte_utilization",
+      "agent_ramp_share",
+      "attrition_pct",
+      "ai_triage_adoption",
+      "offshore_mix"
+    ],
+    "target": "cost_per_scan_usd",
+    "elapsed_ms": 235.65,
+    "throughput_rows_per_sec": 3819.2,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "R2",
+    "baseline_primary": 0.8769,
+    "ml_primary": 0.9605,
+    "baseline_error_label": "MAE ($)",
+    "baseline_error": 14.0526,
+    "ml_error": 7.8858,
+    "ml_rmse": 10.0728,
+    "error_reduction_pct": 43.88
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "data_tag": "[SYN] Deterministic Synthetic Startup Portfolio Benchmarks",
+  "module_a_saas_arr": {
+    "rows_total": 1200,
+    "train_rows": 900,
+    "test_rows": 300,
+    "baseline_ridge": {
+      "r2": 0.9061,
+      "mae_m": 1.3473,
+      "rmse_m": 1.7009
+    },
+    "gradient_boosting": {
+      "r2": 0.9692,
+      "mae_m": 0.7455,
+      "rmse_m": 0.9736
+    },
+    "top_feature_importances": {
+      "ramping_aes": 0.6029,
+      "quota_attainment": 0.1581,
+      "nrr": 0.1041,
+      "pipeline_coverage": 0.0651,
+      "starting_arr_m": 0.0628,
+      "sm_spend_m": 0.0067,
+      "cac_payback_mo": 0.0003
+    }
+  },
+  "module_b_ai_compute_margin": {
+    "rows_total": 1200,
+    "test_rows": 300,
+    "baseline_ridge": {
+      "r2": 0.8095,
+      "mae_pp": 6.751
+    },
+    "random_forest": {
+      "r2": 0.9535,
+      "mae_pp": 3.03,
+      "rmse_pp": 5.177
+    },
+    "margin_anomaly_clusters_flagged": 17,
+    "mean_gross_margin_pct": 58.25,
+    "mean_p99_latency_ms": 205.3
+  },
+  "module_c_ar_collections_risk": {
+    "rows_total": 1500,
+    "test_rows": 375,
+    "delinquency_base_rate_pct": 37.2,
+    "logistic_regression": {
+      "roc_auc": 0.7804,
+      "pr_auc": 0.7016,
+      "brier": 0.1784
+    },
+    "random_forest": {
+      "roc_auc": 0.775,
+      "pr_auc": 0.6716,
+      "brier": 0.1817
+    },
+    "flagged_high_risk_ar_volume_m": 3.359
+  },
+  "figures": [
+    "reports/figures/fig1_saas_arr_burn_multiple_forecast.png",
+    "reports/figures/fig2_ai_gpu_compute_margin_curve.png",
+    "reports/figures/fig3_ar_collections_roc_calibration.png",
+    "reports/figures/fig4_startup_cohort_unit_economics_waterfall.png"
+  ]
+}

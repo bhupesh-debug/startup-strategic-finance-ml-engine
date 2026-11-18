@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 16,
+    "slug": "16_netlify_plg_cloud_margin",
+    "company": "Netlify [Archived Template]",
+    "role": "Senior Strategic Finance Manager",
+    "project_title": "PLG Free-to-Enterprise Conversion & Hosting Bandwidth Margin Classifier",
+    "task_type": "classification",
+    "model_family": "RF_CLF",
+    "seed": 1016,
+    "n_rows": 900,
+    "target": "enterprise_upgrade_flag",
+    "unit": "prob",
+    "features": [
+      "team_seats_active",
+      "monthly_bandwidth_gb",
+      "ci_build_mins",
+      "sso_security_hits",
+      "days_since_signup",
+      "billing_card_flag"
+    ],
+    "domain_context": "Archived Greenhouse template preserved for Developer Cloud PLG-to-Enterprise PQL conversion & compute margin caps.",
+    "talking_point": "Identifies PQL signals where free compute consumption justifies proactive Enterprise sales conversion."
+  },
+  "verified_run": {
+    "rank": 16,
+    "slug": "16_netlify_plg_cloud_margin",
+    "company": "Netlify [Archived Template]",
+    "role": "Senior Strategic Finance Manager",
+    "project_title": "PLG Free-to-Enterprise Conversion & Hosting Bandwidth Margin Classifier",
+    "task_type": "classification",
+    "model_family": "RF_CLF",
+    "n_rows": 900,
+    "test_rows": 225,
+    "features": [
+      "team_seats_active",
+      "monthly_bandwidth_gb",
+      "ci_build_mins",
+      "sso_security_hits",
+      "days_since_signup",
+      "billing_card_flag"
+    ],
+    "target": "enterprise_upgrade_flag",
+    "elapsed_ms": 412.44,
+    "throughput_rows_per_sec": 2182.1,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "ROC-AUC",
+    "baseline_primary": 0.847,
+    "ml_primary": 0.8486,
+    "baseline_error_label": "Brier Score",
+    "baseline_error": 0.1569,
+    "ml_error": 0.1595,
+    "ml_pr_auc": 0.8366,
+    "error_reduction_pct": -1.65
+  }
+}

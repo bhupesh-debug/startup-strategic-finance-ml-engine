@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 10,
+    "slug": "10_vendelux_crm_maxio_qbo_tieout",
+    "company": "Vendelux",
+    "role": "FP&A Manager",
+    "project_title": "HubSpot-Maxio-QBO Three-Way Reconciliation & Series C Audit Scorer",
+    "task_type": "classification",
+    "model_family": "RF_CLF",
+    "seed": 1010,
+    "n_rows": 1000,
+    "target": "recon_break_flag",
+    "unit": "prob",
+    "features": [
+      "crm_maxio_amt_diff_pct",
+      "start_date_lag_days",
+      "custom_ramp_flag",
+      "qbo_deferred_mismatch",
+      "manual_adj_count",
+      "multi_year_contract"
+    ],
+    "domain_context": "Series B NYC SaaS FP&A unifying HubSpot bookings, Maxio subscriptions & QuickBooks Online GAAP ledger ($140K-$200K + eq).",
+    "talking_point": "Eliminates fundraising data-room breaks by catching CRM-to-Maxio start-date lags and custom ramp schedules before close."
+  },
+  "verified_run": {
+    "rank": 10,
+    "slug": "10_vendelux_crm_maxio_qbo_tieout",
+    "company": "Vendelux",
+    "role": "FP&A Manager",
+    "project_title": "HubSpot-Maxio-QBO Three-Way Reconciliation & Series C Audit Scorer",
+    "task_type": "classification",
+    "model_family": "RF_CLF",
+    "n_rows": 1000,
+    "test_rows": 250,
+    "features": [
+      "crm_maxio_amt_diff_pct",
+      "start_date_lag_days",
+      "custom_ramp_flag",
+      "qbo_deferred_mismatch",
+      "manual_adj_count",
+      "multi_year_contract"
+    ],
+    "target": "recon_break_flag",
+    "elapsed_ms": 407.51,
+    "throughput_rows_per_sec": 2453.9,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "ROC-AUC",
+    "baseline_primary": 0.9014,
+    "ml_primary": 0.8705,
+    "baseline_error_label": "Brier Score",
+    "baseline_error": 0.1286,
+    "ml_error": 0.1478,
+    "ml_pr_auc": 0.8644,
+    "error_reduction_pct": -14.94
+  }
+}

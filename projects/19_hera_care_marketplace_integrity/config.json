@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 19,
+    "slug": "19_hera_care_marketplace_integrity",
+    "company": "Hera",
+    "role": "Strategic Finance (Founding Team)",
+    "project_title": "Two-Sided Care Marketplace Unit Margin & Claims Denial Risk Scorer",
+    "task_type": "classification",
+    "model_family": "RF_CLF",
+    "seed": 1019,
+    "n_rows": 1000,
+    "target": "payer_claim_denial_flag",
+    "unit": "prob",
+    "features": [
+      "caregiver_fill_rate",
+      "medicaid_payer_tier",
+      "evv_clock_mismatch",
+      "prior_auth_missing",
+      "msa_ramp_weeks",
+      "billed_amt_usd"
+    ],
+    "domain_context": "Tier-1 zero-gate NYC founding seat ($150K-$210K) owning care supply/demand unit economics and Hex/Claude revenue integrity.",
+    "talking_point": "Predicts electronic-visit-verification and prior-auth leaks before claims submission so billed care converts cleanly to cash."
+  },
+  "verified_run": {
+    "rank": 19,
+    "slug": "19_hera_care_marketplace_integrity",
+    "company": "Hera",
+    "role": "Strategic Finance (Founding Team)",
+    "project_title": "Two-Sided Care Marketplace Unit Margin & Claims Denial Risk Scorer",
+    "task_type": "classification",
+    "model_family": "RF_CLF",
+    "n_rows": 1000,
+    "test_rows": 250,
+    "features": [
+      "caregiver_fill_rate",
+      "medicaid_payer_tier",
+      "evv_clock_mismatch",
+      "prior_auth_missing",
+      "msa_ramp_weeks",
+      "billed_amt_usd"
+    ],
+    "target": "payer_claim_denial_flag",
+    "elapsed_ms": 343.57,
+    "throughput_rows_per_sec": 2910.6,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "ROC-AUC",
+    "baseline_primary": 0.8583,
+    "ml_primary": 0.8532,
+    "baseline_error_label": "Brier Score",
+    "baseline_error": 0.1534,
+    "ml_error": 0.1573,
+    "ml_pr_auc": 0.8487,
+    "error_reduction_pct": -2.53
+  }
+}

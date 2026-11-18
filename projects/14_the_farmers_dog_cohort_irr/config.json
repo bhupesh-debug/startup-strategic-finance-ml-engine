@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 14,
+    "slug": "14_the_farmers_dog_cohort_irr",
+    "company": "The Farmer's Dog",
+    "role": "Director, Finance",
+    "project_title": "Subscription vs Retail Multi-Channel Cohort & IRR Guardrail Model",
+    "task_type": "regression",
+    "model_family": "RF",
+    "seed": 1014,
+    "n_rows": 1000,
+    "target": "channel_18m_irr_pct",
+    "unit": "%",
+    "features": [
+      "promo_discount_pct",
+      "spoilage_shipping_pct",
+      "sub_month6_retain",
+      "retail_halo_lift",
+      "cac_payback_mo",
+      "aov_usd"
+    ],
+    "domain_context": "NYC SoHo Director of Finance modeling multi-product/multi-channel promo guardrails, cohort payback, and IRR ($178K-$200K).",
+    "talking_point": "Separates true incremental multi-channel IRR from promo-discounted low-LTV acquisition cohorts."
+  },
+  "verified_run": {
+    "rank": 14,
+    "slug": "14_the_farmers_dog_cohort_irr",
+    "company": "The Farmer's Dog",
+    "role": "Director, Finance",
+    "project_title": "Subscription vs Retail Multi-Channel Cohort & IRR Guardrail Model",
+    "task_type": "regression",
+    "model_family": "RF",
+    "n_rows": 1000,
+    "test_rows": 250,
+    "features": [
+      "promo_discount_pct",
+      "spoilage_shipping_pct",
+      "sub_month6_retain",
+      "retail_halo_lift",
+      "cac_payback_mo",
+      "aov_usd"
+    ],
+    "target": "channel_18m_irr_pct",
+    "elapsed_ms": 515.26,
+    "throughput_rows_per_sec": 1940.8,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "R2",
+    "baseline_primary": 0.8682,
+    "ml_primary": 0.8998,
+    "baseline_error_label": "MAE (%)",
+    "baseline_error": 5.9499,
+    "ml_error": 5.0301,
+    "ml_rmse": 6.4285,
+    "error_reduction_pct": 15.46
+  }
+}

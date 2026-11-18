@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 18,
+    "slug": "18_openai_generalist_deal_capex",
+    "company": "OpenAI",
+    "role": "Strategic Finance Generalist",
+    "project_title": "Enterprise AI Commercial Deal & Multi-Year Compute CapEx ROI Simulator",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "seed": 1018,
+    "n_rows": 1000,
+    "target": "deal_3yr_npv_m",
+    "unit": "$M",
+    "features": [
+      "contract_acv_m",
+      "api_commit_pct",
+      "capex_alloc_m",
+      "compute_cost_deflation",
+      "churn_prob",
+      "discount_pct"
+    ],
+    "domain_context": "Commercial transaction underwriting, capital markets & P&L/BS/CF ROI modeling ($234K-$260K SF, sponsorship supported).",
+    "talking_point": "Underwrites 3-year strategic compute commitments factoring hardware depreciation deflation vs. contractual volume floors."
+  },
+  "verified_run": {
+    "rank": 18,
+    "slug": "18_openai_generalist_deal_capex",
+    "company": "OpenAI",
+    "role": "Strategic Finance Generalist",
+    "project_title": "Enterprise AI Commercial Deal & Multi-Year Compute CapEx ROI Simulator",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "n_rows": 1000,
+    "test_rows": 250,
+    "features": [
+      "contract_acv_m",
+      "api_commit_pct",
+      "capex_alloc_m",
+      "compute_cost_deflation",
+      "churn_prob",
+      "discount_pct"
+    ],
+    "target": "deal_3yr_npv_m",
+    "elapsed_ms": 296.43,
+    "throughput_rows_per_sec": 3373.5,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "R2",
+    "baseline_primary": 0.8135,
+    "ml_primary": 0.9474,
+    "baseline_error_label": "MAE ($M)",
+    "baseline_error": 14.5035,
+    "ml_error": 7.1893,
+    "ml_rmse": 9.4244,
+    "error_reduction_pct": 50.43
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 13,
+    "slug": "13_grafana_labs_corp_fpa_lrp",
+    "company": "Grafana Labs",
+    "role": "Senior Director, Corporate FP&A",
+    "project_title": "Consolidated 3-Statement LRP & Rule-of-40 Public-Readiness Engine",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "seed": 1013,
+    "n_rows": 1000,
+    "target": "rule_of_40_score",
+    "unit": "pts",
+    "features": [
+      "arr_yoy_growth_pct",
+      "fcf_margin_pct",
+      "ndr_pct",
+      "sm_pct_rev",
+      "rd_pct_rev",
+      "tax_eff_rate"
+    ],
+    "domain_context": "Enterprise SaaS Corporate FP&A consolidated P&L/BS/CF forecasting in Pigment and close-to-insight rhythm ($268K-$322K OTE).",
+    "talking_point": "Quantifies trade-offs between top-line ARR growth investment and FCF margin levers across long-range plans."
+  },
+  "verified_run": {
+    "rank": 13,
+    "slug": "13_grafana_labs_corp_fpa_lrp",
+    "company": "Grafana Labs",
+    "role": "Senior Director, Corporate FP&A",
+    "project_title": "Consolidated 3-Statement LRP & Rule-of-40 Public-Readiness Engine",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "n_rows": 1000,
+    "test_rows": 250,
+    "features": [
+      "arr_yoy_growth_pct",
+      "fcf_margin_pct",
+      "ndr_pct",
+      "sm_pct_rev",
+      "rd_pct_rev",
+      "tax_eff_rate"
+    ],
+    "target": "rule_of_40_score",
+    "elapsed_ms": 277.57,
+    "throughput_rows_per_sec": 3602.7,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "R2",
+    "baseline_primary": 0.8856,
+    "ml_primary": 0.9698,
+    "baseline_error_label": "MAE (pts)",
+    "baseline_error": 14.5166,
+    "ml_error": 7.3763,
+    "ml_rmse": 9.2866,
+    "error_reduction_pct": 49.19
+  }
+}

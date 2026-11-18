@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 2,
+    "slug": "02_fort_robotics_fpa_3statement",
+    "company": "FORT Robotics",
+    "role": "FP&A Manager",
+    "project_title": "Hardware/Software/Services Blended Margin & 13-Wk Cash Model",
+    "task_type": "regression",
+    "model_family": "RF",
+    "seed": 1002,
+    "n_rows": 900,
+    "target": "operating_cash_flow_k",
+    "unit": "$K",
+    "features": [
+      "hardware_units",
+      "sw_attach_pct",
+      "bom_cost_index",
+      "inventory_days",
+      "deferred_rev_ratio",
+      "headcount_ramp"
+    ],
+    "domain_context": "Public-readiness / de-SPAC 3-statement driver model bridging robotics hardware inventory turns and ratable software ARR.",
+    "talking_point": "Prevents working-capital cash traps by tying BOM inventory lead times directly into the 13-week cash bridge alongside ASC 606 mix."
+  },
+  "verified_run": {
+    "rank": 2,
+    "slug": "02_fort_robotics_fpa_3statement",
+    "company": "FORT Robotics",
+    "role": "FP&A Manager",
+    "project_title": "Hardware/Software/Services Blended Margin & 13-Wk Cash Model",
+    "task_type": "regression",
+    "model_family": "RF",
+    "n_rows": 900,
+    "test_rows": 225,
+    "features": [
+      "hardware_units",
+      "sw_attach_pct",
+      "bom_cost_index",
+      "inventory_days",
+      "deferred_rev_ratio",
+      "headcount_ramp"
+    ],
+    "target": "operating_cash_flow_k",
+    "elapsed_ms": 369.79,
+    "throughput_rows_per_sec": 2433.8,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "R2",
+    "baseline_primary": 0.896,
+    "ml_primary": 0.9239,
+    "baseline_error_label": "MAE ($K)",
+    "baseline_error": 12.7701,
+    "ml_error": 11.0656,
+    "ml_rmse": 13.6656,
+    "error_reduction_pct": 13.35
+  }
+}

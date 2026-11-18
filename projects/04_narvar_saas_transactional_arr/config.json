@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 4,
+    "slug": "04_narvar_saas_transactional_arr",
+    "company": "Narvar",
+    "role": "Senior Manager, FP&A",
+    "project_title": "B2B SaaS + Transactional Shipping Volume & NRR Revenue Engine",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "seed": 1004,
+    "n_rows": 1000,
+    "target": "quarterly_net_new_rev_k",
+    "unit": "$K",
+    "features": [
+      "base_saas_arr_m",
+      "holiday_ship_mult",
+      "nrr_rate",
+      "take_rate_bps",
+      "ramping_aes",
+      "quota_attain"
+    ],
+    "domain_context": "Post-purchase SaaS + peak Q4 transactional parcel volume forecasting and AOP/LRP modeling ($157K-$225K Remote).",
+    "talking_point": "Decouples deterministic base SaaS NRR from volatile merchant shipping GMV elasticity so BvA variances stay transparent."
+  },
+  "verified_run": {
+    "rank": 4,
+    "slug": "04_narvar_saas_transactional_arr",
+    "company": "Narvar",
+    "role": "Senior Manager, FP&A",
+    "project_title": "B2B SaaS + Transactional Shipping Volume & NRR Revenue Engine",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "n_rows": 1000,
+    "test_rows": 250,
+    "features": [
+      "base_saas_arr_m",
+      "holiday_ship_mult",
+      "nrr_rate",
+      "take_rate_bps",
+      "ramping_aes",
+      "quota_attain"
+    ],
+    "target": "quarterly_net_new_rev_k",
+    "elapsed_ms": 249.99,
+    "throughput_rows_per_sec": 4000.2,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "R2",
+    "baseline_primary": 0.8962,
+    "ml_primary": 0.9599,
+    "baseline_error_label": "MAE ($K)",
+    "baseline_error": 13.5427,
+    "ml_error": 7.9057,
+    "ml_rmse": 10.4657,
+    "error_reduction_pct": 41.62
+  }
+}

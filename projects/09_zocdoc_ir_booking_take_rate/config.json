@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 9,
+    "slug": "09_zocdoc_ir_booking_take_rate",
+    "company": "Zocdoc",
+    "role": "Senior Manager, Strategic Finance & IR",
+    "project_title": "Patient Marketplace Booking Volume, Take-Rate & IR Bridge Engine",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "seed": 1009,
+    "n_rows": 900,
+    "target": "net_marketplace_rev_k",
+    "unit": "$K",
+    "features": [
+      "patient_bookings_k",
+      "enterprise_system_mix",
+      "effective_take_rate_usd",
+      "provider_churn_pct",
+      "rebook_share",
+      "cac_efficiency"
+    ],
+    "domain_context": "NYC Hybrid Strategic Finance & IR bridge decomposing volume beats vs. enterprise health-system take-rate mix.",
+    "talking_point": "Produces investor-grade volume/mix/rate bridges explaining why lower enterprise take-rate expands multi-year LTV."
+  },
+  "verified_run": {
+    "rank": 9,
+    "slug": "09_zocdoc_ir_booking_take_rate",
+    "company": "Zocdoc",
+    "role": "Senior Manager, Strategic Finance & IR",
+    "project_title": "Patient Marketplace Booking Volume, Take-Rate & IR Bridge Engine",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "n_rows": 900,
+    "test_rows": 225,
+    "features": [
+      "patient_bookings_k",
+      "enterprise_system_mix",
+      "effective_take_rate_usd",
+      "provider_churn_pct",
+      "rebook_share",
+      "cac_efficiency"
+    ],
+    "target": "net_marketplace_rev_k",
+    "elapsed_ms": 261.41,
+    "throughput_rows_per_sec": 3442.9,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "R2",
+    "baseline_primary": 0.8969,
+    "ml_primary": 0.9544,
+    "baseline_error_label": "MAE ($K)",
+    "baseline_error": 11.6327,
+    "ml_error": 8.1574,
+    "ml_rmse": 10.2898,
+    "error_reduction_pct": 29.88
+  }
+}

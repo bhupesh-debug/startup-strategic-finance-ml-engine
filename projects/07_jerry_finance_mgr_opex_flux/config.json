@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 7,
+    "slug": "07_jerry_finance_mgr_opex_flux",
+    "company": "Jerry.ai",
+    "role": "Finance Manager",
+    "project_title": "Marketplace OpEx Variance Flux & Vendor Spend Anomaly Classifier",
+    "task_type": "classification",
+    "model_family": "RF_CLF",
+    "seed": 1007,
+    "n_rows": 1000,
+    "target": "unbudgeted_overrun_flag",
+    "unit": "prob",
+    "features": [
+      "vendor_spend_ratio",
+      "po_missing_flag",
+      "dup_seat_pct",
+      "dept_headcount_delta",
+      "contract_auto_renew",
+      "prior_flux_breaches"
+    ],
+    "domain_context": "Operational FP&A close control, Ramp/NetSuite spend underwriting, and monthly vendor flux escalation ($150K-$225K Remote).",
+    "talking_point": "Flags duplicate SaaS seats, missing POs, and auto-renewal traps before month-end close locks OpEx overspend."
+  },
+  "verified_run": {
+    "rank": 7,
+    "slug": "07_jerry_finance_mgr_opex_flux",
+    "company": "Jerry.ai",
+    "role": "Finance Manager",
+    "project_title": "Marketplace OpEx Variance Flux & Vendor Spend Anomaly Classifier",
+    "task_type": "classification",
+    "model_family": "RF_CLF",
+    "n_rows": 1000,
+    "test_rows": 250,
+    "features": [
+      "vendor_spend_ratio",
+      "po_missing_flag",
+      "dup_seat_pct",
+      "dept_headcount_delta",
+      "contract_auto_renew",
+      "prior_flux_breaches"
+    ],
+    "target": "unbudgeted_overrun_flag",
+    "elapsed_ms": 301.79,
+    "throughput_rows_per_sec": 3313.6,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "ROC-AUC",
+    "baseline_primary": 0.8544,
+    "ml_primary": 0.8145,
+    "baseline_error_label": "Brier Score",
+    "baseline_error": 0.1568,
+    "ml_error": 0.1755,
+    "ml_pr_auc": 0.803,
+    "error_reduction_pct": -11.99
+  }
+}

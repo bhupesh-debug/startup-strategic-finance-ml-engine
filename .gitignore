@@ -1,0 +1,18 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments & secrets
+.venv/
+venv/
+.env
+*.pem
+*.key
+
+# OS artifacts
+.DS_Store
+Thumbs.db

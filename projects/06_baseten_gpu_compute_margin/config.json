@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 6,
+    "slug": "06_baseten_gpu_compute_margin",
+    "company": "Baseten",
+    "role": "Strategic Finance",
+    "project_title": "AI Inference GPU Cluster Utilization & Gross Margin Optimizer",
+    "task_type": "regression",
+    "model_family": "RF",
+    "seed": 1006,
+    "n_rows": 1000,
+    "target": "inference_gross_margin_pct",
+    "unit": "%",
+    "features": [
+      "gpu_utilization",
+      "reserved_share",
+      "tokens_k_per_min",
+      "realized_price_m_tok",
+      "batch_size",
+      "p99_latency_ms"
+    ],
+    "domain_context": "Usage-based AI inference revenue, GPU utilization efficiency, enterprise deal minimums & margin analysis ($200K-$280K NYC).",
+    "talking_point": "Pinpoints exact GPU utilization thresholds and spot/reserved cluster splits needed to protect >=65% inference gross margins."
+  },
+  "verified_run": {
+    "rank": 6,
+    "slug": "06_baseten_gpu_compute_margin",
+    "company": "Baseten",
+    "role": "Strategic Finance",
+    "project_title": "AI Inference GPU Cluster Utilization & Gross Margin Optimizer",
+    "task_type": "regression",
+    "model_family": "RF",
+    "n_rows": 1000,
+    "test_rows": 250,
+    "features": [
+      "gpu_utilization",
+      "reserved_share",
+      "tokens_k_per_min",
+      "realized_price_m_tok",
+      "batch_size",
+      "p99_latency_ms"
+    ],
+    "target": "inference_gross_margin_pct",
+    "elapsed_ms": 579.77,
+    "throughput_rows_per_sec": 1724.8,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "R2",
+    "baseline_primary": 0.8736,
+    "ml_primary": 0.9291,
+    "baseline_error_label": "MAE (%)",
+    "baseline_error": 5.8717,
+    "ml_error": 4.2718,
+    "ml_rmse": 5.4293,
+    "error_reduction_pct": 27.25
+  }
+}

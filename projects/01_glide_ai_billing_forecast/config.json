@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 1,
+    "slug": "01_glide_ai_billing_forecast",
+    "company": "Glide",
+    "role": "Strategic Finance Lead",
+    "project_title": "AI Contract-to-Cash Billing & Cash Runway Forecaster",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "seed": 1001,
+    "n_rows": 900,
+    "target": "net_cash_collected_k",
+    "unit": "$K",
+    "features": [
+      "fintech_contracts",
+      "usage_overage_pct",
+      "auto_recon_rate",
+      "days_to_invoice",
+      "cogs_alloc_ratio",
+      "churn_rate"
+    ],
+    "domain_context": "Community-bank embedded fintech contract billing, AI auto-reconciliation, and monthly runway cash collection ($140K-$180K + eq NYC).",
+    "talking_point": "Models nonlinear impact of contract-to-cash invoice lag and usage overages on monthly cash runway with automated SQL billing tie-out."
+  },
+  "verified_run": {
+    "rank": 1,
+    "slug": "01_glide_ai_billing_forecast",
+    "company": "Glide",
+    "role": "Strategic Finance Lead",
+    "project_title": "AI Contract-to-Cash Billing & Cash Runway Forecaster",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "n_rows": 900,
+    "test_rows": 225,
+    "features": [
+      "fintech_contracts",
+      "usage_overage_pct",
+      "auto_recon_rate",
+      "days_to_invoice",
+      "cogs_alloc_ratio",
+      "churn_rate"
+    ],
+    "target": "net_cash_collected_k",
+    "elapsed_ms": 368.29,
+    "throughput_rows_per_sec": 2443.7,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "R2",
+    "baseline_primary": 0.8769,
+    "ml_primary": 0.9607,
+    "baseline_error_label": "MAE ($K)",
+    "baseline_error": 13.1642,
+    "ml_error": 7.4769,
+    "ml_rmse": 9.2613,
+    "error_reduction_pct": 43.2
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 12,
+    "slug": "12_fort_robotics_sec_sox_controls",
+    "company": "FORT Robotics",
+    "role": "Head of SEC Reporting",
+    "project_title": "ASC 606 Multi-Element SSP & SOX 302/404 Control Exception Scorer",
+    "task_type": "classification",
+    "model_family": "RF_CLF",
+    "seed": 1012,
+    "n_rows": 1000,
+    "target": "sox_control_exception_flag",
+    "unit": "prob",
+    "features": [
+      "ssp_deviation_pct",
+      "manual_je_late_flag",
+      "sod_conflict_score",
+      "multi_elem_bundle_cnt",
+      "subledger_tieout_diff_k",
+      "cut_off_days"
+    ],
+    "domain_context": "Public-company external reporting readiness, SOX 302/404 audit controls & Workiva XBRL close validation ($140K-$220K).",
+    "talking_point": "Demonstrates automated pre-audit detection of Segregation-of-Duties (SoD) and SSP allocation risk (framed transparently under CPA-candidate track)."
+  },
+  "verified_run": {
+    "rank": 12,
+    "slug": "12_fort_robotics_sec_sox_controls",
+    "company": "FORT Robotics",
+    "role": "Head of SEC Reporting",
+    "project_title": "ASC 606 Multi-Element SSP & SOX 302/404 Control Exception Scorer",
+    "task_type": "classification",
+    "model_family": "RF_CLF",
+    "n_rows": 1000,
+    "test_rows": 250,
+    "features": [
+      "ssp_deviation_pct",
+      "manual_je_late_flag",
+      "sod_conflict_score",
+      "multi_elem_bundle_cnt",
+      "subledger_tieout_diff_k",
+      "cut_off_days"
+    ],
+    "target": "sox_control_exception_flag",
+    "elapsed_ms": 388.55,
+    "throughput_rows_per_sec": 2573.7,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "ROC-AUC",
+    "baseline_primary": 0.8223,
+    "ml_primary": 0.8196,
+    "baseline_error_label": "Brier Score",
+    "baseline_error": 0.173,
+    "ml_error": 0.1739,
+    "ml_pr_auc": 0.79,
+    "error_reduction_pct": -0.49
+  }
+}

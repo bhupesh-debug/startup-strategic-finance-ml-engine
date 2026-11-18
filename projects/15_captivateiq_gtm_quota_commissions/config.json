@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 15,
+    "slug": "15_captivateiq_gtm_quota_commissions",
+    "company": "CaptivateIQ",
+    "role": "Strategic Finance Manager, GTM",
+    "project_title": "GTM Sales Capacity, AE Ramp & Commission Accelerator Forecaster",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "seed": 1015,
+    "n_rows": 1000,
+    "target": "net_new_arr_m",
+    "unit": "$M",
+    "features": [
+      "ramping_aes",
+      "quota_attainment",
+      "pipeline_coverage",
+      "accelerator_mult",
+      "nrr",
+      "sales_cycle_days"
+    ],
+    "domain_context": "E-Verify Tier-1 Remote GTM Strategic Finance owning capacity planning, net new ARR, CaptivateIQ commissions & Adaptive.",
+    "talking_point": "Links AE ramp tenure curves and Salesforce pipeline coverage directly into net new ARR and marginal commission cost-of-ARR."
+  },
+  "verified_run": {
+    "rank": 15,
+    "slug": "15_captivateiq_gtm_quota_commissions",
+    "company": "CaptivateIQ",
+    "role": "Strategic Finance Manager, GTM",
+    "project_title": "GTM Sales Capacity, AE Ramp & Commission Accelerator Forecaster",
+    "task_type": "regression",
+    "model_family": "GBR",
+    "n_rows": 1000,
+    "test_rows": 250,
+    "features": [
+      "ramping_aes",
+      "quota_attainment",
+      "pipeline_coverage",
+      "accelerator_mult",
+      "nrr",
+      "sales_cycle_days"
+    ],
+    "target": "net_new_arr_m",
+    "elapsed_ms": 268.46,
+    "throughput_rows_per_sec": 3724.9,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "R2",
+    "baseline_primary": 0.8109,
+    "ml_primary": 0.9519,
+    "baseline_error_label": "MAE ($M)",
+    "baseline_error": 15.3893,
+    "ml_error": 7.5751,
+    "ml_rmse": 9.5439,
+    "error_reduction_pct": 50.78
+  }
+}

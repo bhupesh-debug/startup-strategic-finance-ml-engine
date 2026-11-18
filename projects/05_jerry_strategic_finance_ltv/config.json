@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 5,
+    "slug": "05_jerry_strategic_finance_ltv",
+    "company": "Jerry.ai",
+    "role": "Strategic Finance Manager",
+    "project_title": "InsurTech Vertical CAC Payback, Policy Retention & LTV Model",
+    "task_type": "regression",
+    "model_family": "RF",
+    "seed": 1005,
+    "n_rows": 1000,
+    "target": "cohort_24m_ltv_usd",
+    "unit": "$",
+    "features": [
+      "policy_premium_usd",
+      "carrier_take_rate",
+      "month6_retention",
+      "cac_usd",
+      "claim_assist_score",
+      "multi_product_attach"
+    ],
+    "domain_context": "AI car-ownership & insurance marketplace underwriting across new verticals and paid channels ($150K-$225K Remote).",
+    "talking_point": "Maps Bankers Life insurance sensitivity analytics onto consumer policy persistence, carrier commission mix, and Month-12 payback gates."
+  },
+  "verified_run": {
+    "rank": 5,
+    "slug": "05_jerry_strategic_finance_ltv",
+    "company": "Jerry.ai",
+    "role": "Strategic Finance Manager",
+    "project_title": "InsurTech Vertical CAC Payback, Policy Retention & LTV Model",
+    "task_type": "regression",
+    "model_family": "RF",
+    "n_rows": 1000,
+    "test_rows": 250,
+    "features": [
+      "policy_premium_usd",
+      "carrier_take_rate",
+      "month6_retention",
+      "cac_usd",
+      "claim_assist_score",
+      "multi_product_attach"
+    ],
+    "target": "cohort_24m_ltv_usd",
+    "elapsed_ms": 435.06,
+    "throughput_rows_per_sec": 2298.5,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "R2",
+    "baseline_primary": 0.8994,
+    "ml_primary": 0.9025,
+    "baseline_error_label": "MAE ($)",
+    "baseline_error": 12.6343,
+    "ml_error": 12.5597,
+    "ml_rmse": 15.6211,
+    "error_reduction_pct": 0.59
+  }
+}

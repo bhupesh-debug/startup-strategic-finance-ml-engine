@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "rank": 17,
+    "slug": "17_openai_workloads_inference_frontier",
+    "company": "OpenAI",
+    "role": "Strategic Finance, Research (Workloads)",
+    "project_title": "Inference P99 Latency vs GPU Utilization Cost Efficiency Optimizer",
+    "task_type": "regression",
+    "model_family": "RF",
+    "seed": 1017,
+    "n_rows": 1200,
+    "target": "effective_margin_per_m_tok",
+    "unit": "$/M",
+    "features": [
+      "gpu_memory_util",
+      "p99_latency_ms",
+      "throughput_tok_s",
+      "quantization_bits",
+      "batch_size",
+      "reserved_cap_share"
+    ],
+    "domain_context": "Tier-1 sponsorship-supported Research Strategic Finance evaluating latency, throughput, and inference $/token economics ($234K-$325K).",
+    "talking_point": "Gives Scaling & Inference engineers a single dollar-margin objective uniting P99 millisecond impact with GPU CapEx amortization."
+  },
+  "verified_run": {
+    "rank": 17,
+    "slug": "17_openai_workloads_inference_frontier",
+    "company": "OpenAI",
+    "role": "Strategic Finance, Research (Workloads)",
+    "project_title": "Inference P99 Latency vs GPU Utilization Cost Efficiency Optimizer",
+    "task_type": "regression",
+    "model_family": "RF",
+    "n_rows": 1200,
+    "test_rows": 300,
+    "features": [
+      "gpu_memory_util",
+      "p99_latency_ms",
+      "throughput_tok_s",
+      "quantization_bits",
+      "batch_size",
+      "reserved_cap_share"
+    ],
+    "target": "effective_margin_per_m_tok",
+    "elapsed_ms": 566.26,
+    "throughput_rows_per_sec": 2119.2,
+    "data_tag": "[SYN]",
+    "primary_metric_name": "R2",
+    "baseline_primary": 0.8861,
+    "ml_primary": 0.9103,
+    "baseline_error_label": "MAE ($/M)",
+    "baseline_error": 12.847,
+    "ml_error": 11.4767,
+    "ml_rmse": 14.0818,
+    "error_reduction_pct": 10.67
+  }
+}
