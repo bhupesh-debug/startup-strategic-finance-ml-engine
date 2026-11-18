@@ -1,0 +1,138 @@
+{
+  "audit_date": "2026-11-18",
+  "browser_host_verified_origins": [
+    "https://openai.com",
+    "https://grafana.com",
+    "https://www.fortrobotics.com",
+    "https://getjerry.com",
+    "https://www.junipersquare.com",
+    "https://vendelux.com",
+    "https://www.captivateiq.com",
+    "https://www.alpha-sense.com"
+  ],
+  "blocked_origins": [
+    "https://jerry.ai (blocked during redirect; public super-app stats only from getjerry.com / [SYN])"
+  ],
+  "startups": [
+    {
+      "rank": 1,
+      "company": "Glide",
+      "tag": "[SYN]",
+      "benchmark": "40+ community banks/CU cited in ecosystem estimates [SYN]; AI Agents, Deposit/Loan Opening workflows modeled at 30-day implementation & automated contract billing cash runway."
+    },
+    {
+      "rank": 2,
+      "company": "FORT Robotics",
+      "tag": "[REAL-VERIFIED]",
+      "benchmark": "23,000+ FORT devices deployed, 680+ customers served, 25 patents earned, SIL 3 IEC 61508 certified (Exida); Newbury Street II Acquisition Corp public-listing track; NSC/EPC hardware + FORT Manager SaaS."
+    },
+    {
+      "rank": 3,
+      "company": "Covera Health",
+      "tag": "[SYN]",
+      "benchmark": "Radiology & Care Coordination clinical intelligence platform targeting >$212B US MSK care spend [SYN network density & FTE staffing utilization 82-88% modeled]."
+    },
+    {
+      "rank": 4,
+      "company": "Narvar",
+      "tag": "[SYN]",
+      "benchmark": "Post-purchase Promise/Track/Notify/Shield retail parcel workflows supplemented with [SYN] seasonal holiday parcel elasticity & SaaS NRR multipliers."
+    },
+    {
+      "rank": 5,
+      "company": "Jerry.ai (Strat Fin)",
+      "tag": "[SYN]",
+      "benchmark": "Redirected host jerry.ai was blocked; insurance policy comparison & car-ownership LTV/CAC cohort curves benchmarked cleanly with [SYN] data."
+    },
+    {
+      "rank": 6,
+      "company": "Baseten",
+      "tag": "[SYN]",
+      "benchmark": "AI inference & GPU cluster utilization economics (T4/L4/A100/H100/B200 tiers) modeled cleanly under [SYN] serverless/dedicated margin benchmarks (>=65% GM target)."
+    },
+    {
+      "rank": 7,
+      "company": "Jerry.ai (Fin Mgr)",
+      "tag": "[SYN]",
+      "benchmark": "Same blocked host condition as #5; marketplace vendor spend/OpEx variance flux modeled cleanly under [SYN] audit distributions."
+    },
+    {
+      "rank": 8,
+      "company": "Juniper Square",
+      "tag": "[REAL-VERIFIED]",
+      "benchmark": "2,300+ GPs, 40,000+ funds, 650,000 LP accounts, $1 trillion LP capital managed; Investor CRM/Portal + Fund Admin + JunieAI & Fay Admin Oversight Agent."
+    },
+    {
+      "rank": 9,
+      "company": "Zocdoc",
+      "tag": "[SYN]",
+      "benchmark": "Patient scheduling marketplace take-rate vs. enterprise health-system LTV mix modeled with [SYN] synthetic bookings."
+    },
+    {
+      "rank": 10,
+      "company": "Vendelux",
+      "tag": "[REAL-VERIFIED]",
+      "benchmark": "250,000+ global B2B events database; documented ROI of +300% YoY late-stage pipeline at Voltage & 60 target-account meetings at Contentful; HubSpot/Salesforce CRM sync."
+    },
+    {
+      "rank": 11,
+      "company": "Maven Clinic",
+      "tag": "[SYN]",
+      "benchmark": "Employer virtual care PMPM client lives & launch-lag BvA revenue model benchmarked with [SYN] health-benefit schedules."
+    },
+    {
+      "rank": 12,
+      "company": "FORT Robotics (SEC)",
+      "tag": "[REAL-VERIFIED]",
+      "benchmark": "de-SPAC / Newbury Street II public readiness demands Form 10-K/10-Q/S-1, Workiva XBRL, ASC 606 hardware/software bundles, and SOX 302/404 controls."
+    },
+    {
+      "rank": 13,
+      "company": "Grafana Labs",
+      "tag": "[REAL-VERIFIED]",
+      "benchmark": "Cloud Free ($0, 10k series/50GB logs free) -> Pro ($19/mo + $6.50/1k series, $0.55/GB logs, $8-$55/user, $20/AI user + $2/1M tokens) -> Enterprise ($25,000/yr min spend)."
+    },
+    {
+      "rank": 14,
+      "company": "The Farmer's Dog",
+      "tag": "[SYN]",
+      "benchmark": "Subscription vs retail pet-food multi-channel promo discount, spoilage/shipping & 18-month IRR modeled with [SYN] cohort retention curves."
+    },
+    {
+      "rank": 15,
+      "company": "CaptivateIQ",
+      "tag": "[REAL-VERIFIED]",
+      "benchmark": "1,000+ teams (1/3 of Cloud 100), 94% CSAT (2,500+ G2 reviews), 60x faster commission runs, +10% seller productivity, SmartGrid ELT, Assist AI, SOC 1/2 & ASC 606."
+    },
+    {
+      "rank": 16,
+      "company": "Netlify [Archived]",
+      "tag": "[SYN]",
+      "benchmark": "Greenhouse job closed; retained purely as PLG free-tier bandwidth vs Enterprise conversion model template [SYN]."
+    },
+    {
+      "rank": 17,
+      "company": "OpenAI (Workloads)",
+      "tag": "[REAL-VERIFIED]",
+      "benchmark": "API pricing: gpt-6.2-astra ($8/$40 per 1M in/out tokens), gpt-6.2-sol ($2/$10), gpt-6.1-terra ($1/$5), gpt-6-luna ($0.10/$0.50); Batch -50%; Background -30% to -40%."
+    },
+    {
+      "rank": 18,
+      "company": "OpenAI (Generalist)",
+      "tag": "[REAL-VERIFIED]",
+      "benchmark": "ChatGPT Business ($20-$100/seat/mo annual), Enterprise inference tiers, File Search ($0.10/GB-day) & Hosted Containers ($0.03-$1.92/20-min session)."
+    },
+    {
+      "rank": 19,
+      "company": "Hera",
+      "tag": "[SYN]",
+      "benchmark": "Two-sided senior-care marketplace caregiver fill-rate & Medicaid/payer claims denial risk modeled with [SYN] unit economics."
+    },
+    {
+      "rank": 20,
+      "company": "AlphaSense",
+      "tag": "[REAL-VERIFIED]",
+      "benchmark": "8,000+ enterprise customers, 500M+ financial/business documents, 1M experts, Tegus/BamSEC/Canalyst/Sentieo acquisitions, SuperAnalyst MCP & Market Intel/Enterprise tiers."
+    }
+  ]
+}

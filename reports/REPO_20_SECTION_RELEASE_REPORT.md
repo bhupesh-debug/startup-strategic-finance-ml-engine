@@ -157,3 +157,82 @@ Generated and stored under `reports/figures/`:
 - Quant & Monte Carlo Engine: `src/quant_research_and_montecarlo.py`
 - Verification Suite: `tests/test_all_20_projects.py` & `tests/test_startup_ml.py`
 - Raw Outputs: `reports/all_20_projects_metrics.json`, `reports/repo_quant_and_mc_summary.json`, `reports/metrics_summary.json`
+
+---
+
+## 21. Plain-English Everyday Guide to All 20 Startup Projects + Real vs. `[SYN]` Benchmarks
+
+| # | Startup | Data Basis | Simple Everyday Explanation |
+|---:|---|---|---|
+| #01 | **Glide** | `[SYN]` | Think of a community bank as a busy lemonade stand using paper sticky notes to send bills. This computer helper reads every bank contract, predicts when customers will pay their bills late, and tells the owner how much cash will be in the jar next month. |
+| #02 | **FORT Robotics** | `[REAL-VERIFIED]` | Imagine a toy factory making both physical safety remote controllers and monthly software updates. Because boxes sit in the warehouse before they ship, this model tracks parts, warehouse delays, and weekly bills so the factory never runs short of cash. |
+| #03 | **Covera Health** | `[SYN]` | Picture a hospital scheduling desk where MRI scan orders pile up on Mondays and holidays. This forecast predicts how many scans will arrive next week so managers schedule just the right number of helpers—neither overpaying idle staff nor making patients wait. |
+| #04 | **Narvar** | `[SYN]` | Online stores pay steady monthly rent for software, plus extra fees whenever holiday shoppers track millions of packages. Our predictor separates steady rent money from wild Black Friday package spikes so finance leaders are never surprised. |
+| #05 | **Jerry.ai (Strat Fin)** | `[SYN]` | Buying car insurance is like signing up kids for a bike club where some quit early and others stay for years. This model adds up how much ad money it takes to welcome a driver versus how many years they keep renewing policies. |
+| #06 | **Baseten** | `[SYN]` | Running Artificial Intelligence computers is like renting big delivery trucks: if a truck drives mostly empty, each package costs too much to deliver. This tool measures how full each graphics chip is so the company charges fair prices and keeps healthy profits. |
+| #07 | **Jerry.ai (Fin Mgr)** | `[SYN]` | Think of a household credit card bill with dozens of app subscriptions. This watchdog spots duplicate software charges, missing approval receipts, and surprise auto-renewals before the monthly budget closes. |
+| #08 | **Juniper Square** | `[REAL-VERIFIED]` | When engineering teams in the U.S. and India build new software for $1 trillion in investment funds, managers need to know which features actually pay back their cost. This score tracks team speed and cloud bills to approve only high-payoff software projects. |
+| #09 | **Zocdoc** | `[SYN]` | When huge hospital chains join a doctor-booking app, they pay a smaller fee per appointment than solo dentists—but they stay far longer. This model explains that trade-off clearly to investors so nobody panics over lower per-visit fees. |
+| #10 | **Vendelux** | `[REAL-VERIFIED]` | Suppose your sales team writes a deal in a notebook, your billing app sends an invoice, and your bankbook records cash. This detective spots whenever those three books disagree on start dates or discounts so fundraising audits pass cleanly. |
+| #11 | **Maven Clinic** | `[SYN]` | Company health plans pay a monthly fee for each employee enrolled. Because large employers launch on different calendar days, this calculator turns headcount and launch delays into accurate monthly revenue numbers. |
+| #12 | **FORT Robotics (SEC)** | `[REAL-VERIFIED]` | Before a company can sell stock on the public stock market, outside checkers inspect every accounting rule twice. This scanner hunts for unusual late-night journal entries or bundled price mistakes so public financial reports stay spotless. |
+| #13 | **Grafana Labs** | `[REAL-VERIFIED]` | Software leaders balance two dials: growing sales fast versus saving spare profit cash. This planner simulates how much cloud growth plus leftover cash equals a healthy 40+ score for public investors. |
+| #14 | **The Farmer's Dog** | `[SYN]` | Selling fresh dog food online versus inside grocery stores has totally different shipping boxes, spoilage, and coupon costs. This model tests every coupon promo to make sure store expansion creates real new profit instead of just shifting old buyers. |
+| #15 | **CaptivateIQ** | `[REAL-VERIFIED]` | New salespeople need a few warm-up months before closing full deals, and big bonuses kick in when they beat goals. This tool maps each salesperson's warm-up curve so leadership knows both future sales and exact bonus payouts. |
+| #16 | **Netlify [Template]** | `[SYN]` | Many coders try a cloud tool for free before their whole company buys a paid plan. This detector watches usage clues—like extra team seats and security clicks—to tell salespeople which free teams are ready to upgrade. |
+| #17 | **OpenAI (Workloads)** | `[REAL-VERIFIED]` | Making an AI answer faster uses more computer chips and electricity, which costs more money per answer. This calculator finds the sweet spot where answers feel snappy to users without wasting expensive chip time. |
+| #18 | **OpenAI (Generalist)** | `[REAL-VERIFIED]` | Signing a huge multi-year AI contract means buying expensive data-center chips years before all customer money arrives. This simulator checks whether long-term chip price drops and contract minimums earn a strong multi-year profit. |
+| #19 | **Hera** | `[SYN]` | Running a two-sided senior-care service means matching trained caregivers to families while billing health insurers accurately. This early-warning detector catches missing clock-in signatures or approvals before insurers reject payment. |
+| #20 | **AlphaSense** | `[REAL-VERIFIED]` | With 8,000+ big business clients reading financial research, billing teams must collect overdue invoices politely without annoying good customers who just had a billing typo. This risk scorer separates real non-payment danger from simple paperwork delays. |
+
+---
+
+## 22. Master Glossary, Key Terms & Full Forms
+
+| Term / Acronym | Full Form | Plain Definition |
+|---|---|---|
+| **AI / ML** | Artificial Intelligence / Machine Learning | Computer software that learns patterns from past numbers to predict future sales, costs, or risks. |
+| **AOP** | Annual Operating Plan | A startup's master one-year financial budget setting revenue goals, headcount hires, and spending limits. |
+| **AR** | Accounts Receivable | Money owed to a company by customers for invoices already sent but not yet paid. |
+| **ARR** | Annual Recurring Revenue | Yearly value of active, repeating customer software subscriptions (Monthly Recurring Revenue × 12). |
+| **ASC 350-40** | Accounting Standards Codification Topic 350-40 | U.S. accounting rule defining when software engineering wages must be expensed right away vs. capitalized as a long-term asset. |
+| **ASC 606** | Accounting Standards Codification Topic 606 | U.S. accounting rule controlling when a company can count sales as earned revenue (e.g., spread over a 12-month subscription rather than day-1 cash). |
+| **B2B** | Business-to-Business | Companies selling software or services to other businesses rather than to individual consumers. |
+| **Brier Score** | Probability Calibration Mean Squared Error | Measures how honest a probability forecast is (0.000 is perfect accuracy; lower is better). |
+| **Burn Multiple** | Net Cash Burn / Net New Annual Recurring Revenue | Startup efficiency gauge: burning $1.50 or less to add $1.00 of new annual recurring revenue is healthy. |
+| **BvA / FvA** | Budget vs. Actuals / Forecast vs. Actuals | Monthly scorecard comparing what Finance planned to spend/earn against what actually happened. |
+| **CAC** | Customer Acquisition Cost | Total Sales & Marketing dollars spent divided by the number of new paying customers won. |
+| **CapEx** | Capital Expenditure | Big upfront purchases of long-lived equipment like AI GPU servers or data centers rather than day-to-day rent. |
+| **Cohort** | Customer Group Over Time | Tracking customers who signed up in the same month/quarter as a batch to measure retention and profit. |
+| **COGS** | Cost of Goods Sold | Direct cost to deliver a product or service—for AI/SaaS startups this includes cloud servers, GPU chips, and customer support. |
+| **CPQ** | Configure, Price, Quote | Sales software tied to CRM that stops reps from giving unapproved custom discounts or broken billing dates. |
+| **CRM** | Customer Relationship Management | Software like Salesforce or HubSpot tracking sales leads, deals, and contract renewals. |
+| **CVaR (95%)** | Conditional Value at Risk (Expected Shortfall) | Average loss inside the worst 5% of Monte Carlo outcomes—shows how bad a severe crash gets. |
+| **de-SPAC** | Special Purpose Acquisition Company Merger | A faster way a private company like FORT Robotics merges with a listed shell company to trade publicly. |
+| **DSO** | Days Sales Outstanding | Average number of days it takes to collect cash after sending an invoice (lower DSO means faster cash in the bank). |
+| **EPM / ERP** | Enterprise Performance Management / Enterprise Resource Planning | Master planning tools (Pigment, Adaptive, Anaplan) and core accounting ledgers (Oracle, SAP, NetSuite). |
+| **EVV** | Electronic Visit Verification | Digital clock-in/clock-out proof required by U.S. Medicaid/home-care payers before paying care claims. |
+| **FCF Margin** | Free Cash Flow Margin | Percentage of revenue left over as real spendable cash after paying operating bills and equipment CapEx. |
+| **FP&A** | Financial Planning & Analysis | The finance team that builds forecasts, tracks budgets, and guides CEOs on where to invest money. |
+| **GBR** | Gradient Boosting Regressor | A strong machine learning model that stacks many small decision trees sequentially, each fixing errors left by the prior tree. |
+| **GPU Utilization** | Graphics Processing Unit Utilization | Percentage of an expensive AI chip's capacity actively doing useful paying work rather than sitting idle. |
+| **GRR / NRR** | Gross Revenue Retention / Net Revenue Retention | GRR tracks how much old revenue stayed (max 100%); NRR adds upgrades/expansions (often 110%–130%+ in top SaaS). |
+| **KPI** | Key Performance Indicator | A core number—like churn rate or gross margin—showing whether the business is winning. |
+| **LRP** | Long-Range Plan | A 3-to-5-year strategic financial roadmap used by boards, lenders, and investors. |
+| **LTV** | Lifetime Value | Total net gross profit earned from one average customer before they ever cancel. |
+| **MAE / RMSE** | Mean Absolute Error / Root Mean Squared Error | Average forecast miss size in real units (dollars or %); RMSE penalizes big outlier misses more heavily than MAE. |
+| **NRR** | Net Dollar Retention Rate | Revenue kept + expanded from existing customers vs 12 months ago, after subtracting cancellations. |
+| **O2C** | Order-to-Cash | End-to-end money cycle from signing a customer deal through invoicing, collections, and bank reconciliation. |
+| **OAT Sensitivity** | One-At-a-Time Sensitivity (Tornado) | Changing one input dial at a time while freezing others to see which single variable moves profit the most. |
+| **P99 Latency** | 99th Percentile Response Latency | How long the slowest 1% of AI requests take to reply in milliseconds—critical for real-time apps. |
+| **PLG / PQL** | Product-Led Growth / Product-Qualified Lead | Growth where users adopt free software first and usage signals alert sales who is ready to buy. |
+| **PMPM** | Per Member Per Month | Standard healthcare pricing unit charging a fixed monthly dollar rate for each covered health-plan member. |
+| **PR-AUC / ROC-AUC** | Precision-Recall / Receiver Operating Characteristic Area | 0.50–1.00 accuracy scores measuring how reliably a risk model ranks delinquent invoices above safe ones. |
+| **R2 (R-Squared)** | Coefficient of Determination | Fraction of outcome movement explained by a model (0.95 means 95% of swings are captured accurately). |
+| **RF / LogReg / Ridge** | Random Forest / Logistic Regression / Ridge | Three core ML families: RF averages many decision trees; LogReg/Ridge are fast linear/probability baselines. |
+| **Rule of 40** | Annual Revenue Growth % + Free Cash Flow Margin % | Benchmark saying healthy software firms should score 40% or higher combining speed plus profitability. |
+| **SIL 3** | Safety Integrity Level 3 (IEC 61508) | Strict industrial hardware safety certification proving wireless robot emergency stops rarely fail. |
+| **SOX 302 / 404** | Sarbanes-Oxley Act Sections 302 & 404 | Federal U.S. public-company law requiring audited internal accounting controls and executive sign-off against fraud. |
+| **SSP** | Standalone Selling Price | Fair market value assigned to hardware vs. software in bundled contracts under ASC 606 revenue rules. |
+| **VaR (95%)** | Value at Risk (5th Percentile Floor) | Worst cash threshold exceeded 95% of the time in 10,000 Monte Carlo simulations. |
+| **XBRL / iXBRL** | eXtensible Business Reporting Language | Digital machine-readable tagging format mandatory for U.S. SEC 10-K/10-Q public financial filings. |
